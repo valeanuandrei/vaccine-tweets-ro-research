@@ -467,15 +467,15 @@ for z in range (1,2):
 
     # Import the external validation data, along with the manual annotation of each of the 9 annotators.
 
-    Class_1 = np.array(pd.read_excel("Data_inter-agree_100_final_Andrei.xlsx",usecols = (12,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
-    Class_2 = np.array(pd.read_excel("Data_inter-agree_100_final_Ema.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
-    Class_3 = np.array(pd.read_excel("Data_inter-agree_100_final_AlexandraI.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
-    Class_4 = np.array(pd.read_excel("Data_inter-agree_100_final_Ciprian.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
-    Class_5 = np.array(pd.read_excel("Data_inter-agree_100_final_Valentina.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
-    Class_6 = np.array(pd.read_excel("Data_inter-agree_100_final_Dan.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
-    Class_7 = np.array(pd.read_excel("Data_inter-agree_100_final_Corina.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
-    Class_8 = np.array(pd.read_excel("Data_inter-agree_100_final_Miruna.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
-    Class_9 = np.array(pd.read_excel("Data_inter-agree_100_final_Dragos.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
+    Class_1 = np.array(pd.read_excel("Data_inter-agree_100_final_1.xlsx",usecols = (12,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
+    Class_2 = np.array(pd.read_excel("Data_inter-agree_100_final_2.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
+    Class_3 = np.array(pd.read_excel("Data_inter-agree_100_final_3.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
+    Class_4 = np.array(pd.read_excel("Data_inter-agree_100_final_4.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
+    Class_5 = np.array(pd.read_excel("Data_inter-agree_100_final_5.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
+    Class_6 = np.array(pd.read_excel("Data_inter-agree_100_final_6.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
+    Class_7 = np.array(pd.read_excel("Data_inter-agree_100_final_7.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
+    Class_8 = np.array(pd.read_excel("Data_inter-agree_100_final_8.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
+    Class_9 = np.array(pd.read_excel("Data_inter-agree_100_final_9.xlsx",usecols = (11,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
 
     Class_final = np.hstack((Class_1,Class_2,Class_3,Class_4,Class_5,Class_6,Class_7,Class_8,Class_9))
 
@@ -503,7 +503,7 @@ for z in range (1,2):
     Hospz_ext = Majority.reshape(-1,1)
 
 
-    Predictor_ext = np.array(pd.read_excel("Data_inter-agree_100_final_Andrei.xlsx",usecols = (3,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
+    Predictor_ext = np.array(pd.read_excel("Data_inter-agree_100_final_1.xlsx",usecols = (3,),header = None,dtype = str,skiprows = 1),dtype=str).reshape(-1,1)
 
     Predictor_ext = np.hstack((Predictor_ext,Predictor_ext))
 
