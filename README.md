@@ -14,4 +14,4 @@
 
 # Labels explanation (for the two csv files containing the tweet labels): 0 = true content; 1 = neutral content; 2 = fake content
 
-# Model_SVC.sav = the predictive model based on the 1300 annotated tweets from the internal dataset; the algorithm was evaluated based on its ability to estimate the probability that a specific tweet is true, neutral and fake, as well as on its ability to classify a specific tweet in true, neutral or fake.
+# Model_SVC.sav = the predictive Support Vector Machines model based on the 1300 annotated tweets from the internal dataset; the algorithm was evaluated based on its ability to estimate the probability that a specific tweet is true, neutral and fake, as well as on its ability to classify a specific tweet in true, neutral or fake.
