@@ -394,7 +394,7 @@ for z in range (1,2):
                    
             # The characteristics of the 4 machine learning which were tested are listed below. Please note that the Voting Classifier was an ensemble model between MLP Classifier and SVC.
         
-            #model = MLPClassifier(activation = 'logistic',hidden_layer_sizes=((1,)),max_iter = 1000,learning_rate_init = 0.0002)
+            #model = MLPClassifier(activation = 'logistic',hidden_layer_sizes=((100,)),max_iter = 1000,learning_rate_init = 0.0002)
             #model = RandomForestClassifier(n_estimators = 200,random_state = 42,class_weight = 'balanced')
             model = SVC(probability = True,class_weight = 'balanced',break_ties = True,random_state = 42,C = 1)
             #model = VotingClassifier(estimators=[('bnb1', model_1),('bnb2',model_2)],voting = 'soft')
@@ -563,7 +563,7 @@ for z in range (1,2):
         
         # The characteristics of the 4 machine learning which were tested are listed below. Please note that the Voting Classifier was an ensemble model between MLP Classifier and SVC.
         
-        #model = MLPClassifier(activation = 'logistic',hidden_layer_sizes=((1,)),max_iter = 1000,learning_rate_init = 0.0002)
+        #model = MLPClassifier(activation = 'logistic',hidden_layer_sizes=((100,)),max_iter = 1000,learning_rate_init = 0.0002)
         #model = RandomForestClassifier(n_estimators = 200,random_state = 42,class_weight = 'balanced')
         model = SVC(probability = True,class_weight = 'balanced',break_ties = True,random_state = 42,C = 1)
         #model = VotingClassifier(estimators=[('bnb1', model_1),('bnb2',model_2)],voting = 'soft')
@@ -680,7 +680,7 @@ for z in range (1,2):
 
             # The characteristics of the 4 machine learning which were tested are listed below. Please note that the Voting Classifier was an ensemble model between MLP Classifier and SVC.
         
-            #model = MLPClassifier(activation = 'logistic',hidden_layer_sizes=((1,)),max_iter = 1000,learning_rate_init = 0.0002)
+            #model = MLPClassifier(activation = 'logistic',hidden_layer_sizes=((100,)),max_iter = 1000,learning_rate_init = 0.0002)
             #model = RandomForestClassifier(n_estimators = 200,random_state = 42,class_weight = 'balanced')
             model = SVC(probability = True,class_weight = 'balanced',break_ties = True,random_state = 42,C = 1)
             #model = VotingClassifier(estimators=[('bnb1', model_1),('bnb2',model_2)],voting = 'soft')
