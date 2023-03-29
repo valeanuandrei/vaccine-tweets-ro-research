@@ -8,9 +8,11 @@
 
 # Internal_data_vectors.csv = the TFidf vectorized data corresponding to the tweets from the internal dataset (1300 tweets)
 # Internal_data_labels.csv = the labels resulted from the manual annotation of the tweets from the internal dataset (1300 tweets)
+# Internal_data_ID.csv = the tweet IDs for the internal dataset (1300 tweets)
 
 # External_data_vectors.csv = the TFidf vectorized data corresponding to the tweets from the external dataset (100 tweets)
 # External_data_labels.csv = the labels resulted from the manual annotation of the tweets from the external dataset (100 tweets)
+# External_data_ID.csv = the tweet IDs for the external dataset (100 tweets)
 
 # Labels explanation (for the two csv files containing the tweet labels): 0 = true content; 1 = neutral content; 2 = fake content
 
