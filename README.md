@@ -4,7 +4,11 @@
 
 # Filename description
 
-# Data processing_final.py = the Python code for the preprocessing of the 1400 collected tweets, wordcloud representation, correlation analysis, the development and validation of the machine learning predictive models.
+# Data processing_final.py = the Python code for the preprocessing of the 1400 collected tweets, wordcloud representation, correlation analysis, the development and validation of the machine learning scikit-learn predictive models.
+
+# Data processing_final_RCNN.py = the Python code for the preprocessing of the 1400 collected tweets, wordcloud representation, correlation analysis, the development and validation of the predictive model based on recurrent convolutional neural networks (RCNN) - Tensorflow implementation.
+
+# Data processing_final_BERT.py = the Python code for the preprocessing of the 1400 collected tweets, wordcloud representation, correlation analysis, the development and validation of the predictive model based on BERT (https://huggingface.co/dumitrescustefan/bert-base-romanian-uncased-v1) - Tensorflow implementation.
 
 # Internal_data_vectors.csv = the TFidf vectorized data corresponding to the tweets from the internal dataset (1300 tweets)
 # Internal_data_labels.csv = the labels resulted from the manual annotation of the tweets from the internal dataset (1300 tweets)
